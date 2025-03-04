@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Generate assembly code from C file
+gcc -S "$CFILE" -o "${CFILE%.c}.s"
