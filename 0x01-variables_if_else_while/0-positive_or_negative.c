@@ -11,8 +11,8 @@ int main(void)
 {
     int n;
 
-    srand(time(0));  /* Initialize the random number generator */
-    n = rand() - RAND_MAX / 2;  /* Generate a random number */
+    srand(time(0));  
+    n= rand() - RAND_MAX / 2;  
 
     if (n > 0)
     {
